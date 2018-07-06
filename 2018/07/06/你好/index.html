@@ -46,6 +46,9 @@
     <link rel="stylesheet" type="text/css" href="/css/sidebar.css">
     
     
+<link rel="stylesheet" type="text/css" href="/css/page.css">
+<link rel="stylesheet" type="text/css" href="/css/post.css">
+
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
     <link rel="stylesheet" type="text/css" href="/css/atom-one-dark.css">
     <link rel="stylesheet" type="text/css" href="/css/lightgallery.min.css">
@@ -79,7 +82,7 @@
     <script defer type="text/javascript" src="/js/index.js"></script>
     
     <script defer type="text/javascript" src="/js/custom.js"></script>
-    <title>GW</title>
+    <title> | GW</title>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage" lang="zh_CN"  data-spy="scroll" data-target=".list-group">
     
@@ -99,7 +102,7 @@
   <a id="nav-toggle" class="nav-toggle"><i class="fas fa-bars"></i></a>
   <ul id="menu">
     
-    <li><a href="/" class="current">首页</a></li>
+    <li><a href="/">首页</a></li>
     
     <li><a href="/archives/">归档</a></li>
     
@@ -122,25 +125,22 @@
         <div class="main-container">
           <div class="content">
             
-
-<div id="index" class="index">
+<div id="post" class="post">
   
-  <article class="index-article card" itemscope itemtype="http://schema.org/Article">
+  <article class="post-article card" itemscope itemtype="http://schema.org/Article">
     <div class="post-block">
       <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/06/你好/">
       <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <meta itemprop="name" content="Guo Wei">
-        <meta itemprop="description" content="">
-        <meta itemprop="image" content="/images/avatar.png">
+       <meta itemprop="name" content="Guo Wei">
+       <meta itemprop="description" content="">
+       <meta itemprop="image" content="/images/avatar.png">
       </span>
       <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-        <meta itemprop="name" content="GW">
+       <meta itemprop="name" content="GW">
       </span>
     </div>
     <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">
-        <a class="post-title-link post-title-link-external" href="/2018/07/06/你好/" itemprop="url"></a>
-      </h1>
+      <h1 class="post-title" itemprop="name headline"></h1>
       <div class="post-meta">
         
         <span class="post-date">
@@ -154,70 +154,88 @@
       </div>
     </header>
     <main class="post-main" itemprop="articleBody">
-      
       <p>—title: ��һ��—<br>������ҵĵڶ�����վ�����ԺõĻ�ǵã���֮ǰ����һ������������ɻ�Ϊʲô��������һ����վ�������𰸾�����̫���ˣ������������᲻������…<br>���ԲŻ�������һ����վ�ٴμ��棬Ҳ��������Լ����ʱ��ı�̼��ܵ�С���顣</p>
 <p><img src="http://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Mark" title="GitHub Mark"></p>
 
-      
     </main>
     <footer class="post-footer">
       
     </footer>
   </article>
   
-  <article class="index-article card" itemscope itemtype="http://schema.org/Article">
-    <div class="post-block">
-      <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/06/hello-world/">
-      <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <meta itemprop="name" content="Guo Wei">
-        <meta itemprop="description" content="">
-        <meta itemprop="image" content="/images/avatar.png">
-      </span>
-      <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-        <meta itemprop="name" content="GW">
-      </span>
+  
+<div class="reward" id="reward">
+  <p>Stay hungry, stay foolish</p>
+  <button id="reward-button" class="button" disable="enable">打赏</button>
+  <div id="qr" class="qr" style="display: none;">
+    
+    <div id="wechat">
+      <img id="wechat_qr" src="/images/WeChatPay.png" alt="微信支付"/>
+      <span>微信支付</span>
     </div>
-    <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">
-        <a class="post-title-link post-title-link-external" href="/2018/07/06/hello-world/" itemprop="url">Hello World</a>
-      </h1>
-      <div class="post-meta">
-        
-        <span class="post-date">
-          <i class="far fa-calendar-plus"></i><span><time title="post-date" itemprop="dateCreated datePublished" datetime="2018-07-06T20:32:36+08:00">2018-07-06 20:32:36</time></span>
-        </span>
-        
-        
-        
-        
-        
-      </div>
-    </header>
-    <main class="post-main" itemprop="articleBody">
-      
-      <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="hljs highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+    
+    
+    
+  </div>
+</div>
 
-      
-    </main>
-    <footer class="post-footer">
-      
-    </footer>
-  </article>
+
   
+  
+  <div class="post-nav">
+    <div class="post-nav-next post-nav-item">
+      
+      <a href="/2018/07/06/hello-world/" rel="next" title="Hello World"><i class="fas fa-angle-left"></i><span class="nav-title">Hello World</span></a>
+      
+    </div>
+    <div class="post-nav-prev post-nav-item">
+      
+    </div>
+  </div>
   
   
   
 
 <div class="comments" id="comments">
   
+  
+  <div class="commentjs" id="comment-thread"></div>
+  <link rel="stylesheet" href="/css/commentjs.css">
+  <script defer type="text/javascript" src="/js/marked.min.js"></script>
+  <script defer type="text/javascript" src="/js/timeago.min.js"></script>
+  <script defer type="text/javascript" src="/js/highlight.min.js"></script>
+  <script defer type="text/javascript" src="/js/commentjs.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function () {
+    getComments({
+      "type": "github",
+      "user": "",
+      "repo": "",
+      "client_id": "",
+      "client_secret": "",
+      "no_comment": "这个页面还没有评论，现在就去评论吧！",
+      "go_to_comment": "去评论",
+      "issue_title": "",
+      "btn_class": "button",
+      "comments_target": "#comment-thread"
+    });
+    marked.setOptions({
+      "highlight": function (code, lang) {
+        return hljs.highlightAuto(code).value;
+      }
+    });
+    function mark() {
+      var markdowns = document.getElementsByClassName("markdown");
+      for (var i = 0; i < markdowns.length; ++i){
+        if (markdowns[i].innerHTML) {
+          markdowns[i].innerHTML = marked(markdowns[i].innerHTML);
+        }
+      }
+    }
+    window.addEventListener("DOMContentLoaded", mark, false);
+    window.addEventListener("load", mark, false);
+  });
+  </script>
   
   
 </div>
@@ -282,6 +300,14 @@
 
 
   <div class="sidebar-sticky">
+    
+    
+
+
+
+
+
+
     
     
     

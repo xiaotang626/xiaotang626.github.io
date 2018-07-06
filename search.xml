@@ -3,10 +3,10 @@
   
     
     <entry>
-      <title>再一次相聚</title>
-      <link href="/2018/07/06/%E5%86%8D%E4%B8%80%E6%AC%A1%E7%9B%B8%E8%81%9A/"/>
-      <url>/2018/07/06/%E5%86%8D%E4%B8%80%E6%AC%A1%E7%9B%B8%E8%81%9A/</url>
-      <content type="html"><![CDATA[]]></content>
+      <title></title>
+      <link href="/2018/07/06/%E4%BD%A0%E5%A5%BD/"/>
+      <url>/2018/07/06/%E4%BD%A0%E5%A5%BD/</url>
+      <content type="html"><![CDATA[<p>—title: ��һ��—<br>������ҵĵڶ�����վ�����ԺõĻ�ǵã���֮ǰ����һ������������ɻ�Ϊʲô��������һ����վ�������𰸾�����̫���ˣ������������᲻������…<br>���ԲŻ�������һ����վ�ٴμ��棬Ҳ��������Լ����ʱ��ı�̼��ܵ�С���顣</p><p><img src="http://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Mark" title="GitHub Mark"></p>]]></content>
       
       
     </entry>
@@ -22,6 +22,27 @@
     
   
   
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
     
   
 </search>
