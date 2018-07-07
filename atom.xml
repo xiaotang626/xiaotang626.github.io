@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-06T17:06:06.127Z</updated>
+  <updated>2018-07-07T04:45:42.852Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,20 +21,18 @@
     <link href="http://yoursite.com/2018/07/07/%E5%86%8D%E4%B8%80%E6%AC%A1%E7%9B%B8%E8%81%9A/"/>
     <id>http://yoursite.com/2018/07/07/再一次相聚/</id>
     <published>2018-07-06T16:20:46.000Z</published>
-    <updated>2018-07-06T17:06:06.127Z</updated>
+    <updated>2018-07-07T04:45:42.852Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h4 id=&quot;我的第二个网站&quot;&gt;&lt;a href=&quot;#我的第二个网站&quot; class=&quot;headerlink&quot; title=&quot;我的第二个网站&quot;&gt;&lt;/a&gt;我的第二个网站&lt;/h4&gt;&lt;p&gt;&lt;img
-        
-      
+      &lt;h4 id=&quot;我的第二个网站&quot;&gt;&lt;a href=&quot;#我的第二个网站&quot; class=&quot;headerlink&quot; title=&quot;我的第二个网站&quot;&gt;&lt;/a&gt;我的第二个网站&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;http://cgartt.com/images/works/201402/1393005126.jpg&quot; alt=&quot;|right|230x328&quot;&gt;&lt;/p&gt;
     
     </summary>
     
+      <category term="个人感悟" scheme="http://yoursite.com/categories/%E4%B8%AA%E4%BA%BA%E6%84%9F%E6%82%9F/"/>
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   

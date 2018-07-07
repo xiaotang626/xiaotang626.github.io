@@ -6,13 +6,46 @@
       <title>再一次相聚</title>
       <link href="/2018/07/07/%E5%86%8D%E4%B8%80%E6%AC%A1%E7%9B%B8%E8%81%9A/"/>
       <url>/2018/07/07/%E5%86%8D%E4%B8%80%E6%AC%A1%E7%9B%B8%E8%81%9A/</url>
-      <content type="html"><![CDATA[<h4 id="我的第二个网站"><a href="#我的第二个网站" class="headerlink" title="我的第二个网站"></a>我的第二个网站</h4><p><img src="http://cgartt.com/images/works/201402/1393005126.jpg" alt="|right|230x328"></p><h5 id="我应该是铁路部门里最会做代码的"><a href="#我应该是铁路部门里最会做代码的" class="headerlink" title="我应该是铁路部门里最会做代码的"></a>我应该是铁路部门里最会做代码的</h5><p>先说件事，其实我本职工作并不是写代码的，说我不务正业也好，说我闲着没事也罢，写代码这件事零零散散也一年了。<br>记性好的应该记得我之前做个一个网站，那我为什么要做第二个呢，原因很简单，太穷了，服务器到期了舍不得续租了…<br>所以只好做一个新的，这回不要钱，也算是考验一下自己练练手。</p><h5 id="有何不同"><a href="#有何不同" class="headerlink" title="有何不同"></a>有何不同</h5><p><strong>那么这次的网站有何不同呢，这次的网站比上次的来说没啥不同，但是这次的页面虽然也很简单，可是会长期支持，我会经常更新这个网站，也作为我自己的日常和技术分享，所以希望大家多多关注，最下面有友情赞助，我很期待到底会不会有人赞助一下，如果有人对做网站或者互联网其他方面感兴趣的可以联系我，大家一起讨论下</strong></p><p>第一篇文章就不说太多了，显得啰里啰唆，但是有好多东西会慢慢在这里和大家分享，<br>比如开火车需要注意什么（是不是很感兴趣），又或者怎样的过程会在你的手机上显示出我的网站。<br>但是今天太晚了，我先睡了…</p>]]></content>
+      <content type="html"><![CDATA[<h4 id="我的第二个网站"><a href="#我的第二个网站" class="headerlink" title="我的第二个网站"></a>我的第二个网站</h4><p><img src="http://cgartt.com/images/works/201402/1393005126.jpg" alt="|right|230x328"></p><a id="more"></a><h5 id="我应该是铁路部门里最会做代码的"><a href="#我应该是铁路部门里最会做代码的" class="headerlink" title="我应该是铁路部门里最会做代码的"></a>我应该是铁路部门里最会做代码的</h5><p>先说件事，其实我本职工作并不是写代码的，说我不务正业也好，说我闲着没事也罢，写代码这件事零零散散也一年了。<br>记性好的应该记得我之前做个一个网站，那我为什么要做第二个呢，原因很简单，太穷了，服务器到期了舍不得续租了…<br>所以只好做一个新的，这回不要钱，也算是考验一下自己练练手。</p><h5 id="有何不同"><a href="#有何不同" class="headerlink" title="有何不同"></a>有何不同</h5><p><strong>那么这次的网站有何不同呢，这次的网站比上次的来说没啥不同，但是这次的页面虽然也很简单，可是会长期支持，我会经常更新这个网站，也作为我自己的日常和技术分享，所以希望大家多多关注，最下面有友情赞助，我很期待到底会不会有人赞助一下，如果有人对做网站或者互联网其他方面感兴趣的可以联系我，大家一起讨论下</strong></p><p>第一篇文章就不说太多了，显得啰里啰唆，但是有好多东西会慢慢在这里和大家分享，<br>比如开火车需要注意什么（是不是很感兴趣），又或者怎样的过程会在你的手机上显示出我的网站。<br>但是今天太晚了，我先睡了…</p>]]></content>
       
+      <categories>
+          
+          <category> 个人感悟 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
       
     </entry>
     
   
   
+    
+    <entry>
+      <title>about</title>
+      <link href="/about/index-2.html"/>
+      <url>/about/index-2.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title>about</title>
+      <link href="/about/index-1.html"/>
+      <url>/about/index-1.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index-1.html"/>
+      <url>/categories/index-1.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
     
     <entry>
       <title>about</title>
@@ -22,9 +55,9 @@
     </entry>
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>categories</title>
+      <link href="/categories/index-2.html"/>
+      <url>/categories/index-2.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
@@ -32,6 +65,20 @@
       <title>categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index-1.html"/>
+      <url>/tags/index-1.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
