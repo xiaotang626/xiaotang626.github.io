@@ -70,15 +70,15 @@
     
     <entry>
       <title>tags</title>
-      <link href="/tags/index-1.html"/>
-      <url>/tags/index-1.html</url>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
     <entry>
       <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <link href="/tags/index-1.html"/>
+      <url>/tags/index-1.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
