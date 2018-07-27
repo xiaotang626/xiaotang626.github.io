@@ -82,7 +82,7 @@
     <script defer type="text/javascript" src="/js/index.js"></script>
     
     <script defer type="text/javascript" src="/js/custom.js"></script>
-    <title>再一次相聚 | GW</title>
+    <title>flask学习 | GW</title>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage" lang="zh_CN"  data-spy="scroll" data-target=".list-group">
     
@@ -129,7 +129,7 @@
   
   <article class="post-article card" itemscope itemtype="http://schema.org/Article">
     <div class="post-block">
-      <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/07/再一次相聚/">
+      <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/27/flask学习/">
       <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
        <meta itemprop="name" content="Guo Wei">
        <meta itemprop="description" content="">
@@ -140,11 +140,11 @@
       </span>
     </div>
     <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">再一次相聚</h1>
+      <h1 class="post-title" itemprop="name headline">flask学习</h1>
       <div class="post-meta">
         
         <span class="post-date">
-          <i class="far fa-calendar-plus"></i><span><time title="post-date" itemprop="dateCreated datePublished" datetime="2018-07-07T00:20:46+08:00">2018-07-07 00:20:46</time></span>
+          <i class="far fa-calendar-plus"></i><span><time title="post-date" itemprop="dateCreated datePublished" datetime="2018-07-27T23:17:55+08:00">2018-07-27 23:17:55</time></span>
         </span>
         
         
@@ -153,7 +153,7 @@
         
         <span class="post-categories">
           
-          <i class="far fa-folder-open"></i><span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/个人感悟/" itemprop="url" rel="index"><span itemprop="name">个人感悟</span></a></span>
+          <i class="far fa-folder-open"></i><span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/flask/" itemprop="url" rel="index"><span itemprop="name">flask</span></a></span>
         </span>
         
         
@@ -162,11 +162,27 @@
       </div>
     </header>
     <main class="post-main" itemprop="articleBody">
-      <h4 id="我的第二个网站"><a href="#我的第二个网站" class="headerlink" title="我的第二个网站"></a>我的第二个网站</h4><p><img src="http://cgartt.com/images/works/201402/1393005126.jpg" alt="|right|230x328"></p>
-<a id="more"></a>
-<h5 id="我应该是铁路部门里最会做代码的"><a href="#我应该是铁路部门里最会做代码的" class="headerlink" title="我应该是铁路部门里最会做代码的"></a>我应该是铁路部门里最会做代码的</h5><p>先说件事，其实我本职工作并不是写代码的，说我不务正业也好，说我闲着没事也罢，写代码这件事零零散散也一年了。<br>记性好的应该记得我之前做个一个网站，那我为什么要做第二个呢，原因很简单，太穷了，服务器到期了舍不得续租了…<br>所以只好做一个新的，这回不要钱，也算是考验一下自己练练手。</p>
-<h5 id="有何不同"><a href="#有何不同" class="headerlink" title="有何不同"></a>有何不同</h5><p><strong>那么这次的网站有何不同呢，这次的网站比上次的来说没啥不同，但是这次的页面虽然也很简单，可是会长期支持，我会经常更新这个网站，也作为我自己的日常和技术分享，所以希望大家多多关注，最下面有友情赞助，我很期待到底会不会有人赞助一下，如果有人对做网站或者互联网其他方面感兴趣的可以联系我，大家一起讨论下</strong></p>
-<p>第一篇文章就不说太多了，显得啰里啰唆，但是有好多东西会慢慢在这里和大家分享，<br>比如开火车需要注意什么（是不是很感兴趣），又或者怎样的过程会在你的手机上显示出我的网站。<br>但是今天太晚了，我先睡了…</p>
+      <h2 id="Flask"><a href="#Flask" class="headerlink" title="Flask"></a>Flask</h2><blockquote>
+<p> flask是python的轻量级网站框架，这次的博客学习路径是根据慕课网的实战视频进行的学习。<br> 视频中的项目环境是python3的实验环境，但是经过学习中的测试，因为python3据说已经不支持urllib2，根据视频中的学习会出现导入urllib2的错误，所以这个项目学习我本人是根据python2的版本进行学习的。<br> 开发的系统平台是用ubuntu18.04<br> 使用的IDE是Pycharm<br> python版本为python2<br><a id="more"></a> </p>
+</blockquote>
+<hr>
+<h3 id="项目准备"><a href="#项目准备" class="headerlink" title="项目准备"></a>项目准备</h3><blockquote>
+<p>首先在ubuntu上使用virtualenv进行虚拟环境的创建，然后进入虚拟环境再使用命令进行flask的安装<br> <code>pip install flask</code></p>
+</blockquote>
+<hr>
+<h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><blockquote>
+<p>启动或者创建一个flask的项目很简单，只需要几行代码就可以完成。<br>首先，创建一个py文件（命名任意，这里以hello为例）<br>启动一个flask的服务器很简单，只需要从flask中导入一个Flask的对象并且实例化它<strong>（一般默认命名为app）</strong>，然后执行run方法，就可以启动一个flask的服务器,代码如下。<br><figure class="hljs highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">from flask import Flask</span><br><span class="line"></span><br><span class="line">app = Flask(__name__)</span><br><span class="line"></span><br><span class="line">app.run()</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p><img src="https://m.qpic.cn/psb?/V13Tbded12iTGC/9HmWXP4ntRlAoFT57XaWotUtCmLN9k7*EP5zjBLj2s4!/b/dCIBAAAAAAAA&amp;bo=wAMGBAAAAAARB*E!&amp;rf=viewer_4" alt="运行结果如下"></p>
+<hr>
+<h4 id="视图函数和路由"><a href="#视图函数和路由" class="headerlink" title="视图函数和路由"></a>视图函数和路由</h4><blockquote>
+<p>但是这样只是启动了一个flask的服务，打开浏览器并没有返回任何页面或者信息。<br>flask返回信息或者页面的方式是自定义函数<strong>（视图函数）</strong>返回页面或者数据<br>这里涉及到两个方面，一个是视图函数的定义，另一个是视图函数的路由，也就是我们平时所说的url，或者说是网址。</p>
+</blockquote>
+<figure class="hljs highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">from flask import Flask</span><br><span class="line"></span><br><span class="line">app = Flask(__name__)</span><br><span class="line"></span><br><span class="line">@app.route(&apos;/hello&apos;)</span><br><span class="line">def hello():</span><br><span class="line">    return &apos;hello world&apos;</span><br><span class="line"></span><br><span class="line">app.run()</span><br></pre></td></tr></table></figure>
+<p><img src="https://m.qpic.cn/psb?/V13Tbded12iTGC/jrUFODrXF06hXF75xY*Nhy10f3BIqbkLF3H4IKuY*tk!/b/dCIBAAAAAAAA&amp;bo=wAMGBAAAAAARB*E!&amp;rf=viewer_4" alt="浏览器中输入相应的路由"></p>
+<blockquote>
+<p>这时就完成了最简单的flask的一个项目启动</p>
+</blockquote>
 
     </main>
     <footer class="post-footer">
@@ -176,7 +192,7 @@
         
         
         
-        <a class="post-tag button" href="/tags/随笔/" style="background: #fc6423;" rel="tag"><i class="fas fa-tags"></i>随笔</a>
+        <a class="post-tag button" href="/tags/技术分享/" style="background: #fc6423;" rel="tag"><i class="fas fa-tags"></i>技术分享</a>
         
       </div>
       
@@ -205,10 +221,10 @@
   <div class="post-nav">
     <div class="post-nav-next post-nav-item">
       
+      <a href="/2018/07/10/老司机的日常/" rel="next" title="老司机的日常"><i class="fas fa-angle-left"></i><span class="nav-title">老司机的日常</span></a>
+      
     </div>
     <div class="post-nav-prev post-nav-item">
-      
-      <a href="/2018/07/10/老司机的日常/" rel="prev" title="老司机的日常"><span class="nav-title">老司机的日常</span><i class="fas fa-angle-right"></i></a>
       
     </div>
   </div>
@@ -235,7 +251,7 @@
       "client_secret": "81098608ae0fa73722a0ba96451084b17f996583",
       "no_comment": "这个页面还没有评论，现在就去评论吧！",
       "go_to_comment": "去评论",
-      "issue_title": "再一次相聚",
+      "issue_title": "flask学习",
       "btn_class": "button",
       "comments_target": "#comment-thread"
     });
@@ -327,7 +343,7 @@
 <hr>
 <div class="post-toc sidebar-item" id="toc-div">
   <div><i class="fas fa-list-ol"></i>文章目录</div>
-  <div class="post-toc-content"><ol class="list-group toc"><li class="toc-item toc-level-4"><a class="list-group-item toc-link" href="#我的第二个网站"><span class="toc-text">我的第二个网站</span></a><ol class="list-group toc-child"><li class="toc-item toc-level-5"><a class="list-group-item toc-link" href="#我应该是铁路部门里最会做代码的"><span class="toc-text">我应该是铁路部门里最会做代码的</span></a></li><li class="toc-item toc-level-5"><a class="list-group-item toc-link" href="#有何不同"><span class="toc-text">有何不同</span></a></li></ol></li></ol></div>
+  <div class="post-toc-content"><ol class="list-group toc"><li class="toc-item toc-level-2"><a class="list-group-item toc-link" href="#Flask"><span class="toc-text">Flask</span></a><ol class="list-group toc-child"><li class="toc-item toc-level-3"><a class="list-group-item toc-link" href="#项目准备"><span class="toc-text">项目准备</span></a></li><li class="toc-item toc-level-3"><a class="list-group-item toc-link" href="#创建项目"><span class="toc-text">创建项目</span></a><ol class="list-group toc-child"><li class="toc-item toc-level-4"><a class="list-group-item toc-link" href="#视图函数和路由"><span class="toc-text">视图函数和路由</span></a></li></ol></li></ol></li></ol></div>
 </div>
 
 

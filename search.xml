@@ -3,6 +3,27 @@
   
     
     <entry>
+      <title>flask学习</title>
+      <link href="/2018/07/27/flask%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2018/07/27/flask%E5%AD%A6%E4%B9%A0/</url>
+      <content type="html"><![CDATA[<h2 id="Flask"><a href="#Flask" class="headerlink" title="Flask"></a>Flask</h2><blockquote><p> flask是python的轻量级网站框架，这次的博客学习路径是根据慕课网的实战视频进行的学习。<br> 视频中的项目环境是python3的实验环境，但是经过学习中的测试，因为python3据说已经不支持urllib2，根据视频中的学习会出现导入urllib2的错误，所以这个项目学习我本人是根据python2的版本进行学习的。<br> 开发的系统平台是用ubuntu18.04<br> 使用的IDE是Pycharm<br> python版本为python2<br><a id="more"></a> </p></blockquote><hr><h3 id="项目准备"><a href="#项目准备" class="headerlink" title="项目准备"></a>项目准备</h3><blockquote><p>首先在ubuntu上使用virtualenv进行虚拟环境的创建，然后进入虚拟环境再使用命令进行flask的安装<br> <code>pip install flask</code></p></blockquote><hr><h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><blockquote><p>启动或者创建一个flask的项目很简单，只需要几行代码就可以完成。<br>首先，创建一个py文件（命名任意，这里以hello为例）<br>启动一个flask的服务器很简单，只需要从flask中导入一个Flask的对象并且实例化它<strong>（一般默认命名为app）</strong>，然后执行run方法，就可以启动一个flask的服务器,代码如下。<br><figure class="hljs highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">from flask import Flask</span><br><span class="line"></span><br><span class="line">app = Flask(__name__)</span><br><span class="line"></span><br><span class="line">app.run()</span><br></pre></td></tr></table></figure></p></blockquote><p><img src="https://m.qpic.cn/psb?/V13Tbded12iTGC/9HmWXP4ntRlAoFT57XaWotUtCmLN9k7*EP5zjBLj2s4!/b/dCIBAAAAAAAA&amp;bo=wAMGBAAAAAARB*E!&amp;rf=viewer_4" alt="运行结果如下"></p><hr><h4 id="视图函数和路由"><a href="#视图函数和路由" class="headerlink" title="视图函数和路由"></a>视图函数和路由</h4><blockquote><p>但是这样只是启动了一个flask的服务，打开浏览器并没有返回任何页面或者信息。<br>flask返回信息或者页面的方式是自定义函数<strong>（视图函数）</strong>返回页面或者数据<br>这里涉及到两个方面，一个是视图函数的定义，另一个是视图函数的路由，也就是我们平时所说的url，或者说是网址。</p></blockquote><figure class="hljs highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">from flask import Flask</span><br><span class="line"></span><br><span class="line">app = Flask(__name__)</span><br><span class="line"></span><br><span class="line">@app.route(&apos;/hello&apos;)</span><br><span class="line">def hello():</span><br><span class="line">    return &apos;hello world&apos;</span><br><span class="line"></span><br><span class="line">app.run()</span><br></pre></td></tr></table></figure><p><img src="https://m.qpic.cn/psb?/V13Tbded12iTGC/jrUFODrXF06hXF75xY*Nhy10f3BIqbkLF3H4IKuY*tk!/b/dCIBAAAAAAAA&amp;bo=wAMGBAAAAAARB*E!&amp;rf=viewer_4" alt="浏览器中输入相应的路由"></p><blockquote><p>这时就完成了最简单的flask的一个项目启动</p></blockquote>]]></content>
+      
+      <categories>
+          
+          <category> flask </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技术分享 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>老司机的日常</title>
       <link href="/2018/07/10/%E8%80%81%E5%8F%B8%E6%9C%BA%E7%9A%84%E6%97%A5%E5%B8%B8/"/>
       <url>/2018/07/10/%E8%80%81%E5%8F%B8%E6%9C%BA%E7%9A%84%E6%97%A5%E5%B8%B8/</url>
@@ -43,6 +64,13 @@
     
     <entry>
       <title>about</title>
+      <link href="/about/index-2.html"/>
+      <url>/about/index-2.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title>about</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[]]></content>
@@ -56,23 +84,9 @@
     </entry>
     
     <entry>
-      <title>about</title>
-      <link href="/about/index-2.html"/>
-      <url>/about/index-2.html</url>
-      <content type="html"><![CDATA[]]></content>
-    </entry>
-    
-    <entry>
       <title>categories</title>
       <link href="/categories/index-1.html"/>
       <url>/categories/index-1.html</url>
-      <content type="html"><![CDATA[]]></content>
-    </entry>
-    
-    <entry>
-      <title>tags</title>
-      <link href="/tags/index-1.html"/>
-      <url>/tags/index-1.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
@@ -84,16 +98,23 @@
     </entry>
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index-1.html"/>
+      <url>/tags/index-1.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     

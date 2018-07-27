@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-10T02:35:35.829Z</updated>
+  <updated>2018-07-27T16:21:37.993Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>flask学习</title>
+    <link href="http://yoursite.com/2018/07/27/flask%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://yoursite.com/2018/07/27/flask学习/</id>
+    <published>2018-07-27T15:17:55.000Z</published>
+    <updated>2018-07-27T16:21:37.993Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Flask&quot;&gt;&lt;a href=&quot;#Flask&quot; class=&quot;headerlink&quot; title=&quot;Flask&quot;&gt;&lt;/a&gt;Flask&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt; flask是python的轻量级网站框架，这次的博客学习路径是根据慕课网的实战视频进行的学习。&lt;br&gt; 视频中的项目环境是python3的实验环境，但是经过学习中的测试，因为python3据说已经不支持urllib2，根据视频中的学习会出现导入urllib2的错误，所以这个项目学习我本人是根据python2的版本进行学习的。&lt;br&gt; 开发的系统平台是用ubuntu18.04&lt;br&gt; 使用的IDE是Pycharm&lt;br&gt; python版本为python2&lt;br&gt;
+    
+    </summary>
+    
+      <category term="flask" scheme="http://yoursite.com/categories/flask/"/>
+    
+    
+      <category term="技术分享" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
   
   <entry>
     <title>老司机的日常</title>
